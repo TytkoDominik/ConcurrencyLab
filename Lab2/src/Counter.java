@@ -1,15 +1,15 @@
 public class Counter
 {
     private int _value;
-    private MySemaphore _semaphore;
+    private CounterSemaphore _semaphore;
 
     public Counter(int n)
     {
         _value = n;
-        _semaphore = new MySemaphore();
+        _semaphore = new CounterSemaphore();
     }
 
-    public synchronized void inc()
+    public void inc()
     {
         _semaphore.P();
         int n;
@@ -19,7 +19,7 @@ public class Counter
         _semaphore.V();
     }
 
-    public synchronized void dec()
+    public void dec()
     {
         _semaphore.P();
         int n;

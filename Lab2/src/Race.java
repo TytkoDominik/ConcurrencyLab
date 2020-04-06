@@ -1,11 +1,8 @@
 public class Race
 {
-    public static int count;
-
     public static void main(String[] args)
     {
         Counter counter = new Counter(0);
-        count = 100000;
         IncrementThread it = new IncrementThread(counter);
         DecrementThread dt = new DecrementThread(counter);
 

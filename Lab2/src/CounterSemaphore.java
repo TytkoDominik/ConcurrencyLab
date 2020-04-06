@@ -1,10 +1,9 @@
-public class MySemaphore
+public class CounterSemaphore
 {
-
         private boolean _state = true;
         private int _wait = 0;
 
-        public MySemaphore()
+        public CounterSemaphore()
         {
                 _state = true;
                 _wait = 0;
@@ -20,8 +19,8 @@ public class MySemaphore
                 {
                         try
                         {
-                                wait();
                                 _wait++;
+                                wait();
                         }
                         catch (InterruptedException e)
                         {
