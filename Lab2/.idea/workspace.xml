@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e2fd47a-f7e9-4342-b08e-7415f8d9ce30" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2/Counter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/CounterModificationThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2/CounterModificationThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/MySemaphore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/Race.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2/Race.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CounterModificationThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterModificationThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MySemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterSemaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Race.java" afterDir="false" />
-    </list>
+    <list default="true" id="7e2fd47a-f7e9-4342-b08e-7415f8d9ce30" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
