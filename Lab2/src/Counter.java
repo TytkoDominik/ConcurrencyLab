@@ -16,9 +16,6 @@ public class Counter
         n = _value;
         n = n + 1;
         _value = n;
-
-        System.out.println("inc to " + _value);
-
         _semaphore.V();
     }
 
@@ -29,9 +26,6 @@ public class Counter
         n = _value;
         n = n - 1;
         _value = n;
-
-        System.out.println("dec to " + _value);
-
         _semaphore.V();
     }
 

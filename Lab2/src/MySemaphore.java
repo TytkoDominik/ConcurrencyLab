@@ -35,6 +35,7 @@ public class MySemaphore
                 if (_wait > 0)
                 {
                         notify();
+                        _wait--;
                 }
                 else
                 {

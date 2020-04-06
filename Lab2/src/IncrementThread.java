@@ -1,8 +1,8 @@
 public class IncrementThread extends CounterModificationThread
 {
-    public IncrementThread(Counter counter, int operationsCount)
+    public IncrementThread(Counter counter)
     {
-        super(counter, operationsCount);
+        super(counter);
     }
 
     @Override
